@@ -19,6 +19,6 @@ def performmath():
            previous=eval(equ)
         else:
             previous=eval(str(previous)+equ)
-        print("you entered the equation",previous)
+        print("your result",previous)
 while run:
     performmath()
